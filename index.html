@@ -11,6 +11,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
+	<!-- Font-awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+	<!-- =-=-=-=-=-=-= Revolution Main Stylesheet =-=-=-=-=-=-= -->
+	<link href="js/revolution/css/settings.css" rel="stylesheet" media="screen" />
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,15 +33,16 @@
 			<div class="container">
 				<!-- row begin	 -->
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<div class="header_login">
 							<a href="#">Login</a>
+							<a href="#">Register</a>
 						</div>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-xs-6">
 						<div class="header_cart">
-							<span class="cart"></span>
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 							2 items: <span class="cart_sum">$89.00</span>
 						</div>
 					</div>
@@ -49,12 +56,12 @@
 		<div class="header_bottom_part">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-md-2 col-sm-4">
 						<div class="logo">
 							<img src="img/logo.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-7">
+					<div class="col-md-7 col-sm-8">
 						<div class="header_menu">
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="#">Home</a></li>
@@ -67,8 +74,16 @@
 					</div>
 					<div class="col-md-3">
 						<div class="header_search">
-							<input type="text">
-							<button></button>
+							<form action="">
+								<div class="input-group">
+									<input type="text" class="field">	
+									
+	  								<button class="btn submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+									
+								</div>
+
+								<!-- <input type="submit" value="" class="submit"> -->
+							</form>
 						</div>
 					</div>
 				</div>
@@ -82,26 +97,172 @@
 <!-- =-=-=-=-=-=-= HEADER END =-=-=-=-=-=-= --> 
 
 <!-- =-=-=-=-=-=-= HOME SLIDER =-=-=-=-=-=-= -->
-<section class="home_slider">
-	
+<section class="tt-container">
+  <div class="tt-banner">
+    <ul>
+      <!-- SLIDE  -->
+      <li data-transition="slideleft" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"> 
+        <!-- MAIN IMAGE --> 
+        <img src="img/slider/1.jpg"   alt=""  data-bgfit="auto" data-bgposition="top center" data-bgrepeat="no-repeat"> 
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption tt-slider-title sft"
+                    data-x="right"
+                    data-hoffset="-50"
+                    data-y="0"
+                    data-speed="1000"
+                    data-start="500"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 1"> 20% off<br>new season </div>
+        
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption tt-slider-subtitle sft"
+                    data-x="right"
+                    data-hoffset="-60"
+                    data-y="150"
+                    data-speed="1000"
+                    data-start="900"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 2">Bring your wardrobe up to speed with <br>Autumn/Winter 2013: shop transitional <br>pieces, all with 20% off<br>
+          </div>
+        
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sft"
+                    data-x="right"
+                    data-hoffset="-120"
+                    data-y="250"
+                    data-speed="1000"
+                    data-start="1100"
+                    data-easing="Power4.easeOut"> <a href="#portfolio" class="tt-btn page-scroll">Shop Now</a> </div>
+      </li>
+
+      <li data-transition="slideleft" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"> 
+        <!-- MAIN IMAGE --> 
+        <img src="img/slider/1.jpg"   alt=""  data-bgfit="auto" data-bgposition="top center" data-bgrepeat="no-repeat"> 
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption tt-slider-title sft"
+                    data-x="right"
+                    data-hoffset="-50"
+                    data-y="0"
+                    data-speed="1000"
+                    data-start="500"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 1"> 20% off<br>new season </div>
+        
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption tt-slider-subtitle sft"
+                    data-x="right"
+                    data-hoffset="-60"
+                    data-y="150"
+                    data-speed="1000"
+                    data-start="900"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 2">Bring your wardrobe up to speed with <br>Autumn/Winter 2013: shop transitional <br>pieces, all with 20% off<br>
+          </div>
+        
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sft"
+                    data-x="right"
+                    data-hoffset="-120"
+                    data-y="250"
+                    data-speed="1000"
+                    data-start="1100"
+                    data-easing="Power4.easeOut"> <a href="#portfolio" class="tt-btn page-scroll">Shop Now</a> </div>
+      </li>
+      <li data-transition="slideleft" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"> 
+        <!-- MAIN IMAGE --> 
+        <img src="img/slider/1.jpg"   alt=""  data-bgfit="auto" data-bgposition="top center" data-bgrepeat="no-repeat"> 
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption tt-slider-title sft"
+                    data-x="right"
+                    data-hoffset="-50"
+                    data-y="0"
+                    data-speed="1000"
+                    data-start="500"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 1"> 20% off<br>new season </div>
+        
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption tt-slider-subtitle sft"
+                    data-x="right"
+                    data-hoffset="-60"
+                    data-y="150"
+                    data-speed="1000"
+                    data-start="900"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 2">Bring your wardrobe up to speed with <br>Autumn/Winter 2013: shop transitional <br>pieces, all with 20% off<br>
+          </div>
+        
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sft"
+                    data-x="right"
+                    data-hoffset="-120"
+                    data-y="250"
+                    data-speed="1000"
+                    data-start="1100"
+                    data-easing="Power4.easeOut"> <a href="#portfolio" class="tt-btn page-scroll">Shop Now</a> </div>
+      </li>
+      <li data-transition="slideleft" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"> 
+        <!-- MAIN IMAGE --> 
+        <img src="img/slider/1.jpg"   alt=""  data-bgfit="auto" data-bgposition="top center" data-bgrepeat="no-repeat"> 
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption tt-slider-title sft"
+                    data-x="right"
+                    data-hoffset="-50"
+                    data-y="0"
+                    data-speed="1000"
+                    data-start="500"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 1"> 20% off<br>new season </div>
+        
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption tt-slider-subtitle sft"
+                    data-x="right"
+                    data-hoffset="-60"
+                    data-y="150"
+                    data-speed="1000"
+                    data-start="900"
+                    data-easing="Power4.easeOut"
+                    data-endspeed="300"
+                    style="z-index: 2">Bring your wardrobe up to speed with <br>Autumn/Winter 2013: shop transitional <br>pieces, all with 20% off<br>
+          </div>
+        
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sft"
+                    data-x="right"
+                    data-hoffset="-120"
+                    data-y="250"
+                    data-speed="1000"
+                    data-start="1100"
+                    data-easing="Power4.easeOut"> <a href="#portfolio" class="tt-btn page-scroll">Shop Now</a> </div>
+      </li>
+      
+    </ul>
+  </div>
 </section>
-<!-- =-=-=-=-=-=-= HOME SLIDER END =-=-=-=-=-=-= -->
+<!-- =-=-=-=-=-=-= HOME SLIDER END =-=-=-=-=-=-= --> 
 
 <!-- =-=-=-=-=-=-= BANNER =-=-=-=-=-=-= -->
 <section class="banner">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<a href="#"><span class="icon icon_return"></span>30 days return</a>
+			<div class="col-md-3 col-sm-6">
+				<a href="#"><i class="fa fa-refresh" aria-hidden="true"></i>30 days return</a>
 			</div>
-			<div class="col-md-3">
-				<a href="#"><span class="icon icon_freeshipping"></span>Free shipping</a>
+			<div class="col-md-3 col-sm-6">
+				<a href="#"><i class="fa fa-truck" aria-hidden="true"></i>Free shipping</a>
 			</div>
-			<div class="col-md-3">
-				<a href="#"><span class="icon icon_securepayments"></span>Secure payments</a>
+			<div class="col-md-3 col-sm-6">
+				<a href="#"><i class="fa fa-lock" aria-hidden="true"></i>Secure payments</a>
 			</div>
-			<div class="col-md-3">
-				<a href="#"><span class="icon icon_newstyles"></span>New styles every day</a>
+			<div class="col-md-3 col-sm-6">
+				<a href="#"><i class="fa fa-gift" aria-hidden="true"></i>New styles every day</a>
 			</div>
 		</div>
 	</div>
@@ -111,44 +272,84 @@
 <!-- =-=-=-=-=-=-= FEATURED =-=-=-=-=-=-= -->
 <section class="featured">
 	<div class="container">
-			<div class="row">
-				<h2 class="lntxt">Featured items</h2>
-				<div class="col-md-3">
-					<div class="feature_item">
-						<a href="#"><img src="img/220x280.jpg" alt=""></a>
-						<p class="feature_item_description">Skater Dress in Floral Print with Cut Out Shoulders</p>
-						<p class="feature_item_price">$47.00</p>
+		<div class="row">
+			<h2 class="lntxt">Featured items</h2>
+			<ul class="featured-carousel">
+
+				<li>
+					<div class="col-md-3 col-sm-6 fffff">
+						<div class="featured-item">
+							<div class="featured-img">
+								<div class="featured-overlay"></div>
+								<img src="img/252x321.jpg" alt="">
+					            <div class="featured-info">
+					            	<a class="featured-btn-cart" href="#">Add to Cart</a>
+					            	<a class="featured-btn-details" href="#">View details</a>
+					            </div>
+							</div>
+							<h4>Skater Dress in Floral Print with Cut Out Shoulders</h4>
+							<p class="feature-price">$47.00</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="col-md-3">
-					<div class="feature_item sale">
-						<a href="#"><img src="img/220x280.jpg" alt=""></a>
-						<p class="feature_item_description">Exclusive Top with 3D floral sleeves</p>
-						<p class="feature_item_price"><span class="old_price">$65.00</span>$50.00</p>
+				</li>
+
+				<li>
+					<div class="col-md-3 col-sm-6">
+						<div class="featured-item sale">
+							<div class="featured-img">
+								<div class="featured-overlay"></div>
+								<img src="img/252x321.jpg" alt="">
+					            <div class="featured-info">
+					            	<a class="featured-btn-cart" href="#">Add to Cart</a>
+					            	<a class="featured-btn-details" href="#">View details</a>
+					            </div>
+							</div>
+							<h4>Exclusive Top with 3D floral sleeves</h4>
+							<p class="feature-price"><span class="old_price">$65.00</span>$50.00</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="col-md-3">
-					<div class="feature_item">
-						<a href="#"><img src="img/220x280.jpg" alt=""></a>
-						<p class="feature_item_description">Shirt With Embellished Collar And Dip Dye</p>
-						<p class="feature_item_price">$67.00</p>
+				</li>
+
+				<li>
+					<div class="col-md-3 col-sm-6">
+						<div class="featured-item">
+							<div class="featured-img">
+								<div class="featured-overlay"></div>
+								<img src="img/252x321.jpg" alt="">
+					            <div class="featured-info">
+					            	<a class="featured-btn-cart" href="#">Add to Cart</a>
+					            	<a class="featured-btn-details" href="#">View details</a>
+					            </div>
+							</div>
+							<h4>Shirt With Embellished Collar And Dip Dye</h4>
+							<p class="feature-price">$67.00</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="col-md-3">
-					<div class="feature_item">
-						<a href="#"><img src="img/220x280.jpg" alt=""></a>
-						<p class="feature_item_description">Mini Shift Dress In Neon Jacquard</p>
-						<p class="feature_item_price">$110.00</p>
+				</li>
+
+				<li>
+					<div class="col-md-3 col-sm-6">
+						<div class="featured-item">
+							<div class="featured-img">
+								<div class="featured-overlay"></div>
+								<img src="img/252x321.jpg" alt="">
+					            <div class="featured-info">
+					            	<a class="featured-btn-cart" href="#">Add to Cart</a>
+					            	<a class="featured-btn-details" href="#">View details</a>
+					            </div>
+							</div>
+							<h4>Mini Shift Dress In Neon Jacquard</h4>
+							<p class="feature-price">$110.00</p>
+						</div>
 					</div>
-				</div>
-				
-			</div>
-		</div>	
+				</li>
+
+			</ul>
+		</div>
+	</div>
 </section>
 <!-- =-=-=-=-=-=-= FEATURED END =-=-=-=-=-=-= -->
+
 
 <!-- =-=-=-=-=-=-= HIGHLIGHTS =-=-=-=-=-=-= -->
 <section class="highlights">
@@ -157,7 +358,7 @@
 				<h2 class="lntxt">Highlights</h2>
 				<div class="col-md-4">
 					<div class="highlights_item">
-						<a href="#"><img src="img/300x212.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive" src="img/300x212.jpg" alt=""></a>
 						<div class="highlights_item_description">
 							<hr>
 							<h3>Knit Dress With Seaming Detail</h3>
@@ -168,7 +369,7 @@
 				
 				<div class="col-md-4">
 					<div class="highlights_item">
-						<a href="#"><img src="img/300x212.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive" src="img/300x212.jpg" alt=""></a>
 						<div class="highlights_item_description">
 							<hr>
 							<h3>Knit Dress With Seaming Detail</h3>
@@ -179,7 +380,7 @@
 				
 				<div class="col-md-4">
 					<div class="highlights_item">
-						<a href="#"><img src="img/300x212.jpg" alt=""></a>
+						<a href="#"><img class="img-responsive" src="img/300x212.jpg" alt=""></a>
 						<div class="highlights_item_description">
 							<hr>
 							<h3>Knit Dress With Seaming Detail</h3>
@@ -198,25 +399,305 @@
 	<div class="container">
 			<div class="row">
 				<h2 class="lntxt">Top rated products</h2>
-				<div class="col-md-4">
-					<div class="highlights_item">
-						<a href="#"><img src="img/300x212.jpg" alt=""></a>
-						<div class="highlights_item_description">
-							<hr>
-							<h3>Knit Dress With Seaming Detail</h3>
-							<p class="highlights_item_price">From $45.00</p>
+				<div class="col-md-4 col-sm-6">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
 						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">Swing Dress In Acid Wash</p>
+							<p class="price">$30.00</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
+						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">Pretty Stone Necklace Pack</p>
+							<p class="price">$25.00</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
+						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">Ponte Mini Skirt With Belt</p>
+							<p class="price">$42.00</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
+						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">DINO Flatform Sneakers</p>
+							<p class="price">$35.00</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
+						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">Floral Garland Head Band</p>
+							<p class="price">$35.00</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="top_rated_products_item">
+						<div class="product_img">
+							<a href="#"><img src="img/70x90.jpg" alt=""></a>
+						</div>
+						<div class="description">
+							<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+
+							<p class="product_name">Midweight Denim Dungaree Dress in Acid Wash</p>
+							<p class="price">$70.00</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>	
+</section>
+<!-- =-=-=-=-=-=-= TOP RATED PRODUCTS END =-=-=-=-=-=-= -->
+
+<!-- =-=-=-=-=-=-= RECENTLY VIEWED =-=-=-=-=-=-= -->
+<section class="recently_viewed">
+	<div class="container">
+			<div class="row">
+				<h2 class="lntxt">Recently viewed</h2>
+
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="recently_viewed_item">
+						<a href="#"><img class="img-responsive" src="img/140x78.jpg" alt=""></a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12">
+					<div class="recently_viewed_markers">
+						<a href="#"><span class="recently_viewed_marker active"></span></a>
+						<a href="#"><span class="recently_viewed_marker"></span></a>
+						<a href="#"><span class="recently_viewed_marker"></span></a>
 					</div>
 				</div>
 			</div>
 		</div>	
 </section>
-<!-- =-=-=-=-=-=-= TOP RATED PRODUCTS END =-=-=-=-=-=-= -->
+<!-- =-=-=-=-=-=-= RECENTLY VIEWED END =-=-=-=-=-=-= -->
+
+<!-- =-=-=-=-=-=-= LASTEST NEWS =-=-=-=-=-=-= -->
+<section class="lastest_news">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<!-- =-=-=-=-=-=-= FROM OUR BLOG =-=-=-=-=-=-= -->
+					<h2 class="lntxt">From our blog</h2>
+
+					<!-- Blog Grid -->
+					<div class="col-sm-6 blog-post">
+						<div class="blog-container">
+							<a href="#"><img class="img-responsive" src="img/345x195.jpg" alt=""></a>
+						</div>
+						<div class="blog-description">
+         					<div class="blog-content-meta"> <i class="fa fa-calendar"></i> <a class="date" href="#"> Aug 9, 2017</a> &nbsp; <i class="fa fa-comment-o"></i> <a class="comments" href="#"> 3 Comments</a> &nbsp; </div>
+         					<h4>Green leather shorts trouser headscarf neutral plaited </h4>
+						</div>
+					</div>
+					<!-- Blog Grid end-->
+
+					<!-- Blog Grid -->
+					<div class="col-sm-6 blog-post">
+						<div class="blog-container">
+							<a href="#"><img class="img-responsive" src="img/345x195.jpg" alt=""></a>
+						</div>
+						<div class="blog-description">
+         					<div class="blog-content-meta"> <i class="fa fa-calendar"></i> <a class="date" href="#"> Feb 10, 2017</a> &nbsp; <i class="fa fa-comment-o"></i> <a class="comments" href="#"> Leave a comment</a> &nbsp; </div>
+         					<h4>Clashing patterns cuff surf pop </h4>
+						</div>
+					</div>
+					<!-- Blog Grid end-->
+					<!-- =-=-=-=-=-=-= FROM OUR BLOG END=-=-=-=-=-=-= -->
+
+				</div>
+				<div class="col-md-4">
+					<!-- =-=-=-=-=-=-= LASTEST TWEET =-=-=-=-=-=-= -->
+					<h2 class="lntxt">Lastest Tweet</h2>
+					<div class="social-media-post">
+						<i class="fa fa-twitter icon" aria-hidden="true"></i>
+						<p>There are Lavazza Coffee everywhere and I like it )) Fantastic teast and great crema</p>
+						<hr>
+					</div>
+					<!-- =-=-=-=-=-=-= LASTEST TWEET END =-=-=-=-=-=-= -->
+				</div>
+			</div>
+		</div>	
+</section>
+<!-- =-=-=-=-=-=-= LASTEST NEWS END =-=-=-=-=-=-= -->
+
+<!-- =-=-=-=-=-=-= JOIN US =-=-=-=-=-=-= -->
+<section class="subscribe">
+	<div class="join-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Join our newsletter</h2>
+						<div class="subscribe_form">
+							<form action="">
+								<input type="text" class="field" placeholder="Your name">
+								<input type="text" class="field" placeholder="Your email">
+								<button class="btn submit" type="submit">Sign up</button>
+							</form>
+						</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+<!-- =-=-=-=-=-=-= JOIN US END =-=-=-=-=-=-= -->
+
+<!-- =-=-=-=-=-=-= FOOTER =-=-=-=-=-=-= -->
+<footer>
+	<div class="inner-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-3 col-sm-6 company">
+					<h4>Company</h4>
+					<ul class="footer-list">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Affiliates</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-3 col-sm-6 help">
+					<h4>Help</h4>
+					<ul class="footer-list">
+						<li><a href="#">Track order</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Shipping info</a></li>
+						<li><a href="#">Payment</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-3 col-sm-6 quick-links">
+					<h4>Quick links</h4>
+					<ul class="footer-list">
+						<li><a href="#">Size guide</a></li>
+						<li><a href="#">My account</a></li>
+						<li><a href="#">Wishlist</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6 follow-us">
+					<h4>Follow us</h4>
+						<ul class="list-inline">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype"></i></a></li>
+						</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<hr>
+				</div>
+				<div class="col-md-6 col-sm-6 copyright">
+					<p>Copyright &copy; 2017 Decima Store. All rights reserved. </p>
+				</div>
+				<div class="col-md-6 col-sm-6 payment-icons">
+					<p><i class="fa fa-cc-visa" aria-hidden="true"></i><i class="fa fa-cc-mastercard" aria-hidden="true"></i><i class="fa fa-cc-paypal" aria-hidden="true"></i><i class="fa fa-cc-amex" aria-hidden="true"></i> </p>
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+
+</footer>
+<!-- =-=-=-=-=-=-= FOOTER END =-=-=-=-=-=-= -->
+
+
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+	<!-- jQuery REVOLUTION Slider  --> 
+	<script src="js/revolution/js/jquery.themepunch.tools.min.js"></script> 
+	<script src="js/revolution/js/jquery.themepunch.revolution.min.js"></script> 
+	
+
+	<script src="js/common.js"></script>
+
   </body>
 </html>
